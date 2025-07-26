@@ -1,0 +1,413 @@
+{
+  "nombre" : "Henry Culajay",
+  "carnet" : "7590-15-6649",
+  "seccion" : "5",
+  "resultadoBusqueda" : {
+    "totalProcesos" : 15,
+    "procesosCompletos" : 4,
+    "procesosPendientes" : 11,
+    "recursosTipoHerramienta" : 12,
+    "procesoMasAntiguo" : {
+      "id" : 7991,
+      "nombre" : "Proceso_11",
+      "fechaInicio" : "2025-04-05T18:02:42.548Z"
+    },
+    "eficienciaPromedio" : 48.7
+  },
+    "payload" : [
+        {
+      "id" : "reporte_1753508241846",
+      "sistemaOrigen" : "SistemaB",
+      "fechaGeneracion" : "2025-07-26T05:37:21.846Z",
+      "estadoGeneral" : "exitoso",
+      "procesos" : [ {
+        "id" : 4797,
+        "nombre" : "Proceso_53",
+        "tipo" : "desarrollo",
+        "estado" : "incompleto",
+        "prioridad" : "baja",
+        "fechaInicio" : "2025-04-25T07:02:31.450Z",
+        "responsable" : "Usuario_20",
+        "childs" : [ {
+          "id" : 3306,
+          "nombre" : "Proceso_90",
+          "tipo" : "implementacion",
+          "estado" : "incompleto",
+          "prioridad" : "alta",
+          "fechaInicio" : "2025-04-29T18:03:05.579Z",
+          "responsable" : "Usuario_5",
+          "childs" : [ {
+            "id" : 1192,
+            "nombre" : "Proceso_6",
+            "tipo" : "pruebas",
+            "estado" : "incompleto",
+            "prioridad" : "baja",
+            "fechaInicio" : "2025-04-15T02:13:41.362Z",
+            "responsable" : "Usuario_23",
+            "childs" : [ {
+              "id" : 7991,
+              "nombre" : "Proceso_11",
+              "tipo" : "pruebas",
+              "estado" : "pendiente",
+              "prioridad" : "alta",
+              "fechaInicio" : "2025-04-05T18:02:42.548Z",
+              "responsable" : "Usuario_47",
+              "childs" : [ ],
+              "recursos" : [ {
+                "id" : "recurso_3edcg",
+                "tipo" : "documento",
+                "nombre" : "Recurso_73",
+                "url" : "https://recursos.com/6z56h4y3"
+              } ],
+              "metricas" : {
+                "tiempoEjecucion" : 715,
+                "costo" : 78.5,
+                "eficiencia" : 16
+              }
+            } ],
+            "recursos" : [ {
+              "id" : "recurso_ywm86",
+              "tipo" : "herramienta",
+              "nombre" : "Recurso_60",
+              "url" : "https://recursos.com/m3yl73og"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 312,
+              "costo" : 534.96,
+              "eficiencia" : 29
+            }
+          } ],
+          "recursos" : [ {
+            "id" : "recurso_o8r4z",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_49",
+            "url" : "https://recursos.com/1ccz3mva"
+          }, {
+            "id" : "recurso_ac6rh",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_87",
+            "url" : "https://recursos.com/wkfgpaw2"
+          }, {
+            "id" : "recurso_p9ypm",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_80",
+            "url" : "https://recursos.com/08tkjry6"
+          } ],
+          "metricas" : {
+            "tiempoEjecucion" : 2,
+            "costo" : 560.71,
+            "eficiencia" : 71
+          }
+        } ],
+        "recursos" : [ {
+          "id" : "recurso_mqsu8",
+          "tipo" : "servicio",
+          "nombre" : "Recurso_24",
+          "url" : "https://recursos.com/9bmkpavs"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 70,
+          "costo" : 436.85,
+          "eficiencia" : 58
+        }
+      }, {
+        "id" : 3471,
+        "nombre" : "Proceso_48",
+        "tipo" : "implementacion",
+        "estado" : "incompleto",
+        "prioridad" : "baja",
+        "fechaInicio" : "2025-04-29T18:37:37.545Z",
+        "responsable" : "Usuario_0",
+        "childs" : [ {
+          "id" : 4175,
+          "nombre" : "Proceso_94",
+          "tipo" : "analisis",
+          "estado" : "completo",
+          "prioridad" : "baja",
+          "fechaInicio" : "2025-06-19T12:23:27.691Z",
+          "responsable" : "Usuario_7",
+          "childs" : [ {
+            "id" : 6004,
+            "nombre" : "Proceso_41",
+            "tipo" : "pruebas",
+            "estado" : "completo",
+            "prioridad" : "alta",
+            "fechaInicio" : "2025-04-29T02:37:26.840Z",
+            "responsable" : "Usuario_31",
+            "childs" : [ {
+              "id" : 5390,
+              "nombre" : "Proceso_54",
+              "tipo" : "implementacion",
+              "estado" : "pendiente",
+              "prioridad" : "alta",
+              "fechaInicio" : "2025-06-28T11:24:42.223Z",
+              "responsable" : "Usuario_45",
+              "childs" : [ ],
+              "recursos" : [ {
+                "id" : "recurso_mp6ow",
+                "tipo" : "servicio",
+                "nombre" : "Recurso_43",
+                "url" : "https://recursos.com/i7toahrq"
+              }, {
+                "id" : "recurso_6jctl",
+                "tipo" : "documento",
+                "nombre" : "Recurso_11",
+                "url" : "https://recursos.com/d0oizg9h"
+              }, {
+                "id" : "recurso_12a0l",
+                "tipo" : "documento",
+                "nombre" : "Recurso_77",
+                "url" : "https://recursos.com/sdj7vm9c"
+              } ],
+              "metricas" : {
+                "tiempoEjecucion" : 832,
+                "costo" : 544.55,
+                "eficiencia" : 62
+              }
+            } ],
+            "recursos" : [ {
+              "id" : "recurso_lc1xg",
+              "tipo" : "herramienta",
+              "nombre" : "Recurso_5",
+              "url" : "https://recursos.com/sfj8nfnt"
+            }, {
+              "id" : "recurso_8ihbd",
+              "tipo" : "documento",
+              "nombre" : "Recurso_8",
+              "url" : "https://recursos.com/5lt7vdqv"
+            }, {
+              "id" : "recurso_9mygn",
+              "tipo" : "servicio",
+              "nombre" : "Recurso_13",
+              "url" : "https://recursos.com/zpey7cn6"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 76,
+              "costo" : 256.63,
+              "eficiencia" : 55
+            }
+          } ],
+          "recursos" : [ {
+            "id" : "recurso_9wfq3",
+            "tipo" : "documento",
+            "nombre" : "Recurso_80",
+            "url" : "https://recursos.com/pq2oxffq"
+          } ],
+          "metricas" : {
+            "tiempoEjecucion" : 690,
+            "costo" : 94.14,
+            "eficiencia" : 43
+          }
+        }, {
+          "id" : 3743,
+          "nombre" : "Proceso_21",
+          "tipo" : "pruebas",
+          "estado" : "pendiente",
+          "prioridad" : "baja",
+          "fechaInicio" : "2025-05-05T18:59:12.453Z",
+          "responsable" : "Usuario_30",
+          "childs" : [ {
+            "id" : 1313,
+            "nombre" : "Proceso_22",
+            "tipo" : "desarrollo",
+            "estado" : "pendiente",
+            "prioridad" : "baja",
+            "fechaInicio" : "2025-07-20T12:14:19.117Z",
+            "responsable" : "Usuario_26",
+            "childs" : [ {
+              "id" : 7203,
+              "nombre" : "Proceso_36",
+              "tipo" : "pruebas",
+              "estado" : "incompleto",
+              "prioridad" : "alta",
+              "fechaInicio" : "2025-04-08T03:44:16.366Z",
+              "responsable" : "Usuario_48",
+              "childs" : [ ],
+              "recursos" : [ {
+                "id" : "recurso_wkqrw",
+                "tipo" : "herramienta",
+                "nombre" : "Recurso_79",
+                "url" : "https://recursos.com/h351q4bl"
+              }, {
+                "id" : "recurso_lkugk",
+                "tipo" : "herramienta",
+                "nombre" : "Recurso_89",
+                "url" : "https://recursos.com/7ebpcjyn"
+              } ],
+              "metricas" : {
+                "tiempoEjecucion" : 947,
+                "costo" : 84.89,
+                "eficiencia" : 32
+              }
+            } ],
+            "recursos" : [ {
+              "id" : "recurso_pcylf",
+              "tipo" : "documento",
+              "nombre" : "Recurso_6",
+              "url" : "https://recursos.com/qnacq2ai"
+            }, {
+              "id" : "recurso_w0za0",
+              "tipo" : "servicio",
+              "nombre" : "Recurso_95",
+              "url" : "https://recursos.com/j3vghfjo"
+            }, {
+              "id" : "recurso_jpz5c",
+              "tipo" : "herramienta",
+              "nombre" : "Recurso_15",
+              "url" : "https://recursos.com/14m7f7z4"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 116,
+              "costo" : 581.77,
+              "eficiencia" : 60
+            }
+          }, {
+            "id" : 8147,
+            "nombre" : "Proceso_20",
+            "tipo" : "desarrollo",
+            "estado" : "pendiente",
+            "prioridad" : "media",
+            "fechaInicio" : "2025-07-17T22:55:45.985Z",
+            "responsable" : "Usuario_41",
+            "childs" : [ {
+              "id" : 6575,
+              "nombre" : "Proceso_99",
+              "tipo" : "pruebas",
+              "estado" : "completo",
+              "prioridad" : "media",
+              "fechaInicio" : "2025-05-28T22:09:40.918Z",
+              "responsable" : "Usuario_9",
+              "childs" : [ ],
+              "recursos" : [ {
+                "id" : "recurso_iue2n",
+                "tipo" : "herramienta",
+                "nombre" : "Recurso_18",
+                "url" : "https://recursos.com/mlo3ef9m"
+              }, {
+                "id" : "recurso_kdqxy",
+                "tipo" : "documento",
+                "nombre" : "Recurso_87",
+                "url" : "https://recursos.com/4met5hzk"
+              } ],
+              "metricas" : {
+                "tiempoEjecucion" : 914,
+                "costo" : 530.68,
+                "eficiencia" : 74
+              }
+            }, {
+              "id" : 9881,
+              "nombre" : "Proceso_10",
+              "tipo" : "pruebas",
+              "estado" : "pendiente",
+              "prioridad" : "alta",
+              "fechaInicio" : "2025-07-16T20:02:40.972Z",
+              "responsable" : "Usuario_30",
+              "childs" : [ ],
+              "recursos" : [ {
+                "id" : "recurso_lptfe",
+                "tipo" : "documento",
+                "nombre" : "Recurso_21",
+                "url" : "https://recursos.com/o1akrrs4"
+              }, {
+                "id" : "recurso_p5iz9",
+                "tipo" : "herramienta",
+                "nombre" : "Recurso_24",
+                "url" : "https://recursos.com/1ybg4adl"
+              }, {
+                "id" : "recurso_ssz76",
+                "tipo" : "herramienta",
+                "nombre" : "Recurso_63",
+                "url" : "https://recursos.com/n03ojiei"
+              } ],
+              "metricas" : {
+                "tiempoEjecucion" : 964,
+                "costo" : 252.18,
+                "eficiencia" : 24
+              }
+            } ],
+            "recursos" : [ {
+              "id" : "recurso_06yaf",
+              "tipo" : "servicio",
+              "nombre" : "Recurso_18",
+              "url" : "https://recursos.com/n3evkl9o"
+            }, {
+              "id" : "recurso_touaf",
+              "tipo" : "documento",
+              "nombre" : "Recurso_88",
+              "url" : "https://recursos.com/dk24d2hv"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 767,
+              "costo" : 419.61,
+              "eficiencia" : 52
+            }
+          } ],
+          "recursos" : [ {
+            "id" : "recurso_eod5j",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_51",
+            "url" : "https://recursos.com/w6grpxal"
+          }, {
+            "id" : "recurso_3jh9u",
+            "tipo" : "documento",
+            "nombre" : "Recurso_69",
+            "url" : "https://recursos.com/tbbsfivl"
+          }, {
+            "id" : "recurso_0hvjt",
+            "tipo" : "servicio",
+            "nombre" : "Recurso_35",
+            "url" : "https://recursos.com/0x13tgro"
+          } ],
+          "metricas" : {
+            "tiempoEjecucion" : 591,
+            "costo" : 589.21,
+            "eficiencia" : 41
+          }
+        } ],
+        "recursos" : [ {
+          "id" : "recurso_fjkq1",
+          "tipo" : "documento",
+          "nombre" : "Recurso_60",
+          "url" : "https://recursos.com/ho8x76tc"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 54,
+          "costo" : 609.29,
+          "eficiencia" : 31
+        }
+      }, {
+        "id" : 1869,
+        "nombre" : "Proceso_80",
+        "tipo" : "analisis",
+        "estado" : "completo",
+        "prioridad" : "baja",
+        "fechaInicio" : "2025-04-08T06:04:05.270Z",
+        "responsable" : "Usuario_32",
+        "childs" : [ ],
+        "recursos" : [ {
+          "id" : "recurso_umx48",
+          "tipo" : "servicio",
+          "nombre" : "Recurso_57",
+          "url" : "https://recursos.com/14kne3uo"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 938,
+          "costo" : 186.89,
+          "eficiencia" : 82
+        }
+      } ],
+      "auditor" : {
+        "nombre" : "Auditor_18",
+        "departamento" : "Operaciones"
+      },
+      "metadata" : {
+        "version" : "v2.2",
+        "entorno" : "produccion"
+      }
+    }
+    ]
+}
+
+
+URL Repositorio GitHub:
+https://github.com/hculajayb/DataStructure.git

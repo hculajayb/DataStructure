@@ -1,0 +1,332 @@
+{
+  "nombre" : "Henry Culajay",
+  "carnet" : "7590-15-6649",
+  "seccion" : "5",
+  "resultadoBusqueda" : {
+    "totalProcesos" : 12,
+    "procesosCompletos" : 4,
+    "procesosPendientes" : 8,
+    "recursosTipoHerramienta" : 8,
+    "eficienciaPromedio" : 59.25,
+    "procesoMasAntiguo" : {
+      "id" : 6644,
+      "nombre" : "Proceso_71",
+      "fechaInicio" : "2025-04-03T03:11:02.556Z"
+    }
+  },
+  "payload" : [ {
+    "id" : "reporte_1753509587407",
+    "sistemaOrigen" : "SistemaB",
+    "fechaGeneracion" : "2025-07-26T05:59:47.407Z",
+    "estadoGeneral" : "parcial",
+    "procesos" : [ {
+      "id" : 1856,
+      "nombre" : "Proceso_7",
+      "tipo" : "implementacion",
+      "estado" : "incompleto",
+      "prioridad" : "baja",
+      "fechaInicio" : "2025-04-22T15:34:02.705Z",
+      "responsable" : "Usuario_23",
+      "childs" : [ {
+        "id" : 9430,
+        "nombre" : "Proceso_26",
+        "tipo" : "implementacion",
+        "estado" : "incompleto",
+        "prioridad" : "alta",
+        "fechaInicio" : "2025-04-29T14:58:05.794Z",
+        "responsable" : "Usuario_4",
+        "childs" : [ ],
+        "recursos" : [ {
+          "id" : "recurso_men82",
+          "tipo" : "servicio",
+          "nombre" : "Recurso_30",
+          "url" : "https://recursos.com/l3knd8l5"
+        }, {
+          "id" : "recurso_iwt31",
+          "tipo" : "herramienta",
+          "nombre" : "Recurso_40",
+          "url" : "https://recursos.com/5o0nv86d"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 414,
+          "costo" : 338.58,
+          "eficiencia" : 99
+        }
+      }, {
+        "id" : 3381,
+        "nombre" : "Proceso_55",
+        "tipo" : "implementacion",
+        "estado" : "pendiente",
+        "prioridad" : "alta",
+        "fechaInicio" : "2025-07-07T05:40:29.880Z",
+        "responsable" : "Usuario_20",
+        "childs" : [ {
+          "id" : 1717,
+          "nombre" : "Proceso_62",
+          "tipo" : "desarrollo",
+          "estado" : "incompleto",
+          "prioridad" : "media",
+          "fechaInicio" : "2025-04-25T17:47:29.474Z",
+          "responsable" : "Usuario_31",
+          "childs" : [ {
+            "id" : 921,
+            "nombre" : "Proceso_25",
+            "tipo" : "implementacion",
+            "estado" : "pendiente",
+            "prioridad" : "alta",
+            "fechaInicio" : "2025-07-13T12:41:36.124Z",
+            "responsable" : "Usuario_43",
+            "childs" : [ ],
+            "recursos" : [ {
+              "id" : "recurso_wk5dd",
+              "tipo" : "servicio",
+              "nombre" : "Recurso_91",
+              "url" : "https://recursos.com/o91za8hu"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 636,
+              "costo" : 268.91,
+              "eficiencia" : 0
+            }
+          } ],
+          "recursos" : [ {
+            "id" : "recurso_8cjvf",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_2",
+            "url" : "https://recursos.com/4suuzck7"
+          }, {
+            "id" : "recurso_0f650",
+            "tipo" : "documento",
+            "nombre" : "Recurso_97",
+            "url" : "https://recursos.com/fkygwx9k"
+          }, {
+            "id" : "recurso_207tv",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_16",
+            "url" : "https://recursos.com/agd1dysq"
+          } ],
+          "metricas" : {
+            "tiempoEjecucion" : 872,
+            "costo" : 119.01,
+            "eficiencia" : 79
+          }
+        } ],
+        "recursos" : [ {
+          "id" : "recurso_2xeyb",
+          "tipo" : "herramienta",
+          "nombre" : "Recurso_71",
+          "url" : "https://recursos.com/cmfms5tk"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 438,
+          "costo" : 678.38,
+          "eficiencia" : 46
+        }
+      } ],
+      "recursos" : [ {
+        "id" : "recurso_nyald",
+        "tipo" : "servicio",
+        "nombre" : "Recurso_38",
+        "url" : "https://recursos.com/0yc8e9rt"
+      } ],
+      "metricas" : {
+        "tiempoEjecucion" : 740,
+        "costo" : 957.91,
+        "eficiencia" : 79
+      }
+    }, {
+      "id" : 7691,
+      "nombre" : "Proceso_48",
+      "tipo" : "implementacion",
+      "estado" : "completo",
+      "prioridad" : "alta",
+      "fechaInicio" : "2025-05-23T02:49:42.523Z",
+      "responsable" : "Usuario_10",
+      "childs" : [ {
+        "id" : 6644,
+        "nombre" : "Proceso_71",
+        "tipo" : "desarrollo",
+        "estado" : "incompleto",
+        "prioridad" : "alta",
+        "fechaInicio" : "2025-04-03T03:11:02.556Z",
+        "responsable" : "Usuario_24",
+        "childs" : [ {
+          "id" : 2952,
+          "nombre" : "Proceso_5",
+          "tipo" : "analisis",
+          "estado" : "completo",
+          "prioridad" : "baja",
+          "fechaInicio" : "2025-07-02T04:24:34.553Z",
+          "responsable" : "Usuario_23",
+          "childs" : [ {
+            "id" : 4678,
+            "nombre" : "Proceso_90",
+            "tipo" : "pruebas",
+            "estado" : "completo",
+            "prioridad" : "baja",
+            "fechaInicio" : "2025-05-11T00:14:33.910Z",
+            "responsable" : "Usuario_34",
+            "childs" : [ ],
+            "recursos" : [ {
+              "id" : "recurso_nlkp0",
+              "tipo" : "herramienta",
+              "nombre" : "Recurso_40",
+              "url" : "https://recursos.com/4eix3ozb"
+            }, {
+              "id" : "recurso_b7w81",
+              "tipo" : "servicio",
+              "nombre" : "Recurso_48",
+              "url" : "https://recursos.com/lhar7z94"
+            }, {
+              "id" : "recurso_apjy3",
+              "tipo" : "documento",
+              "nombre" : "Recurso_5",
+              "url" : "https://recursos.com/2mormdag"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 56,
+              "costo" : 855.77,
+              "eficiencia" : 95
+            }
+          }, {
+            "id" : 6235,
+            "nombre" : "Proceso_50",
+            "tipo" : "analisis",
+            "estado" : "pendiente",
+            "prioridad" : "alta",
+            "fechaInicio" : "2025-06-29T06:25:02.203Z",
+            "responsable" : "Usuario_2",
+            "childs" : [ ],
+            "recursos" : [ {
+              "id" : "recurso_fa22b",
+              "tipo" : "documento",
+              "nombre" : "Recurso_9",
+              "url" : "https://recursos.com/wa790a5b"
+            } ],
+            "metricas" : {
+              "tiempoEjecucion" : 427,
+              "costo" : 543.02,
+              "eficiencia" : 95
+            }
+          } ],
+          "recursos" : [ {
+            "id" : "recurso_570nd",
+            "tipo" : "herramienta",
+            "nombre" : "Recurso_33",
+            "url" : "https://recursos.com/vr65n267"
+          }, {
+            "id" : "recurso_bhlq5",
+            "tipo" : "servicio",
+            "nombre" : "Recurso_70",
+            "url" : "https://recursos.com/vqomeish"
+          } ],
+          "metricas" : {
+            "tiempoEjecucion" : 962,
+            "costo" : 90.64,
+            "eficiencia" : 47
+          }
+        } ],
+        "recursos" : [ {
+          "id" : "recurso_8c93s",
+          "tipo" : "servicio",
+          "nombre" : "Recurso_32",
+          "url" : "https://recursos.com/hyghisyj"
+        }, {
+          "id" : "recurso_0f6v1",
+          "tipo" : "documento",
+          "nombre" : "Recurso_77",
+          "url" : "https://recursos.com/8lhbjwun"
+        }, {
+          "id" : "recurso_mi7gk",
+          "tipo" : "documento",
+          "nombre" : "Recurso_0",
+          "url" : "https://recursos.com/hs0x1ez6"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 610,
+          "costo" : 906.8,
+          "eficiencia" : 4
+        }
+      } ],
+      "recursos" : [ {
+        "id" : "recurso_zr5x5",
+        "tipo" : "documento",
+        "nombre" : "Recurso_20",
+        "url" : "https://recursos.com/o9648zxe"
+      }, {
+        "id" : "recurso_ohd1c",
+        "tipo" : "herramienta",
+        "nombre" : "Recurso_11",
+        "url" : "https://recursos.com/vxn6r7he"
+      } ],
+      "metricas" : {
+        "tiempoEjecucion" : 882,
+        "costo" : 663.21,
+        "eficiencia" : 81
+      }
+    }, {
+      "id" : 4296,
+      "nombre" : "Proceso_70",
+      "tipo" : "pruebas",
+      "estado" : "incompleto",
+      "prioridad" : "baja",
+      "fechaInicio" : "2025-07-04T21:22:26.101Z",
+      "responsable" : "Usuario_35",
+      "childs" : [ {
+        "id" : 3084,
+        "nombre" : "Proceso_61",
+        "tipo" : "desarrollo",
+        "estado" : "completo",
+        "prioridad" : "media",
+        "fechaInicio" : "2025-05-12T21:35:50.146Z",
+        "responsable" : "Usuario_15",
+        "childs" : [ ],
+        "recursos" : [ {
+          "id" : "recurso_rj7o8",
+          "tipo" : "documento",
+          "nombre" : "Recurso_16",
+          "url" : "https://recursos.com/8q28ovok"
+        }, {
+          "id" : "recurso_pzi16",
+          "tipo" : "servicio",
+          "nombre" : "Recurso_83",
+          "url" : "https://recursos.com/1y2l1z4l"
+        } ],
+        "metricas" : {
+          "tiempoEjecucion" : 647,
+          "costo" : 997.15,
+          "eficiencia" : 28
+        }
+      } ],
+      "recursos" : [ {
+        "id" : "recurso_9nkoo",
+        "tipo" : "documento",
+        "nombre" : "Recurso_97",
+        "url" : "https://recursos.com/9nhxu7bd"
+      }, {
+        "id" : "recurso_j9kj9",
+        "tipo" : "documento",
+        "nombre" : "Recurso_95",
+        "url" : "https://recursos.com/idc5zeua"
+      }, {
+        "id" : "recurso_r6n4n",
+        "tipo" : "herramienta",
+        "nombre" : "Recurso_79",
+        "url" : "https://recursos.com/f5y4du4k"
+      } ],
+      "metricas" : {
+        "tiempoEjecucion" : 513,
+        "costo" : 931.13,
+        "eficiencia" : 58
+      }
+    } ],
+    "auditor" : {
+      "nombre" : "Auditor_5",
+      "departamento" : "Operaciones"
+    },
+    "metadata" : {
+      "version" : "v3.4",
+      "entorno" : "produccion"
+    }
+  } ]
+}
